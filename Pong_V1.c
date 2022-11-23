@@ -1,10 +1,9 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 #define V 21
 #define H 75
 
-void pause();
+//PROTOTIPOS
 void inicio(char campo[V][H], int pelX, int pelY, int inijug, int finjug, int iniia, int finia);
 void borde(char campo[V][H]);
 void raqjug(char campo[V][H], int inijug, int finjug);
@@ -113,8 +112,4 @@ void leercamp(char campo[V][H])
 
         printf("\n");
     }
-}
-void pause()
-{
-    system("read -n 1 -s -p \"Presiona cualquier tecla para continuar..\"");
 }
