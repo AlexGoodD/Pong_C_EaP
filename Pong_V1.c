@@ -31,7 +31,7 @@ int main()
     inicio(campo, pelX, pelY, inijug, finjug, iniia, finia);
     leercamp(campo);
 
-    system(pause);
+    system("pause");
 
     return 0;
 }
